@@ -34,6 +34,7 @@ body {
 a {
   text-decoration: none;
   color: white;
+  font-size: 24px;;
 }
 
 ul {
@@ -49,7 +50,6 @@ ul li {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -67,6 +67,7 @@ body {
 
 .sidebar {
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .card-container {
@@ -79,7 +80,6 @@ body {
 .card {
   width: 300px;
   height: 280px;
-  min-height: 50px;
   padding: 16px;
   font-family: 800;
 }
